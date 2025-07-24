@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Page</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="stylesheet" href="serachPageStyle.css">
+	
+</head>
+
+<body>
+     
+	<section class="container">
+	     <form>
+			 <i class="fas fa-search"></i>
+			 <input type="text" name="" id="search-marvel" placeholder="Search Here....." onKeyUp="search()">
+		</form>
+		
+		<div class="marvel-list" id="marvel-list">
+			<a href="Movie pages/iron man 2008/IronMan.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Iron Man.jpg" alt="">
+				 <div class="m-details">
+				      <h2>IRON MAN</h2>
+					 <h3>2008</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Incredible hulk 2008/The Incredible Hulk 2008.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/the hulk.jpg" alt="">
+				 <div class="m-details">
+				      <h2>THE INCREDIBLE HULK</h2>
+					 <h3>2008</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Iron Man 02 2010/Iron Man 02 2010.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Iron man 2.jpg" alt="">
+				 <div class="m-details">
+				      <h2>IRON MAN 02</h2>
+					 <h3>2010</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Thor 2011/Thor 2011.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Thor 2011.jpg" alt="">
+				 <div class="m-details">
+				      <h2>THOR</h2>
+					 <h3>2011</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Captain America The First Avenger/Captain America 01.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Captain America The First Avenger.jpg" alt="">
+				 <div class="m-details">
+				      <h2>CAPTAIN AMERICA: THE FIRST AVENGER</h2>
+					 <h3>2011</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Avengers 2012/Avengers 2012.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/The Avengers.jpg" alt="">
+				 <div class="m-details">
+				      <h2>THE AVENGERS</h2>
+					 <h3>2012</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/iron man 03 2013/IronMan 03 2013.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Iron Man 3.jpg" alt="">
+				 <div class="m-details">
+				      <h2>IRON MAN 03</h2>
+					 <h3>2013</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Thor The Dark World 2013/Thor The Dark World 2013.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Thor The Dark World.jpg" alt="">
+				 <div class="m-details">
+				      <h2>THOR: THE DARK WORLD</h2>
+					 <h3>2013</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Captain America Winter Soldier/Captain America 02.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Captain America The Winter Soldier.jpg" alt="">
+				 <div class="m-details">
+				      <h2>CAPTAIN AMERICA: THE WINTER SOLDIER</h2>
+					 <h3>2014</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Gardians of the Galaxy/Gardians of the Galaxy 2014.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Guardians of the Galaxy.jpg" alt="">
+				 <div class="m-details">
+				      <h2>GUARDIANS OF THE GALAXY</h2>
+					 <h3>2014</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Antman 2015/Antman 2015.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Ant-Man.jpg" alt="">
+				 <div class="m-details">
+				      <h2>ANT - MAN</h2>
+					 <h3>2015</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Captain America Civil War/Captain America 03.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Captain America Civil War.jpg" alt="">
+				 <div class="m-details">
+				      <h2>CAPTAIN AMERICA: CIVIL WAR</h2>
+					 <h3>2016</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Doctor Strange 2016/Doctor Strange 2016.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Doctor Strange.jpg" alt="">
+				 <div class="m-details">
+				      <h2>DOCTOR STRANGE</h2>
+					 <h3>2016</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Guardians of the Galaxy Vol 2/Guardians of the Galaxy Vol. 2.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/The Gardiance of the galaxy 2.jpg" alt="">
+				 <div class="m-details">
+				      <h2>GUARDIANS OF THE GALAXY VOL:02</h2>
+					 <h3>2017</h3>
+				</div>
+			   </div>
+			</a><a href="Movie pages/Spider-Man Homecoming/Spider-Man Homecoming.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/Spider-Man Homecoming.jpg" alt="">
+				 <div class="m-details">
+				      <h2>SPIDER - MAN: HOMECOMING</h2>
+					 <h3>2017</h3>
+				</div>
+			   </div>
+			</a><a href="Movie pages/Thor Ragnarok/Thor Ragnarok.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/thorragnarok_lob_crd_03_0.jpg" alt="">
+				 <div class="m-details">
+				      <h2>THOR: RANGNAROK</h2>
+					 <h3>2017</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Black Panther/Black Panther.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/blackpanther_lob_crd_01_5.jpg" alt="">
+				 <div class="m-details">
+				      <h2>BLACK PANTHER</h2>
+					 <h3>2017</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Avengers Infinity War/Avengers Infinity War.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/avengersinfinitywar_lob_crd_02.jpg" alt="">
+				 <div class="m-details">
+				      <h2>AVENGERS: INFINITY WAR</h2>
+					 <h3>2018</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Ant-Man and the Wasp/Ant-Man and the Wasp.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/ant-manthewasp_lob_crd_01_0.jpg" alt="">
+				 <div class="m-details">
+				      <h2>ANT-MAN AND THE WASP</h2>
+					 <h3>2018</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Captain Marvel/Captain Marvel.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/captainmarvel_lob_crd_06.jpg" alt="">
+				 <div class="m-details">
+				      <h2>CAPTAIN MARVEL</h2>
+					 <h3>2019</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Avengers EndGame/Avengers Endgame.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/avengersendgame_lob_crd_05.jpg" alt="">
+				 <div class="m-details">
+				      <h2>AVENGERS: ENDGAME</h2>
+					 <h3>2019</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Spider-Man Far From Home/Spider-Man Far From Home.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/spiderman far from home.jpg" alt="">
+				 <div class="m-details">
+				      <h2>SPIDER - MAN : FAR FROM HOME</h2>
+					 <h3>2019</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Black Widow/Black Widow.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/blackwidow_lob_crd_06.jpg" alt="">
+				 <div class="m-details">
+				      <h2>BLACK WINDOW</h2>
+					 <h3>2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Shang-Chi 2021/Shang Chi 2021.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/shangchi_lob_crd_07.jpg" alt="">
+				 <div class="m-details">
+				      <h2>SHANG-CHI & THE LEGEND OF THE TEN RINGS</h2>
+					 <h3>2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Eternals 2021/Eternals 2021.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/eternals_lob_crd_06.jpg" alt="">
+				 <div class="m-details">
+				      <h2>ETERNALS</h2>
+					 <h3>2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Spider-Man No Way Home/Spider-Man No Way Home.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/spider-mannowayhome_lob_crd_03.jpg" alt="">
+				 <div class="m-details">
+				      <h2>SPIDER - MAN : NO WAY HOME</h2>
+					 <h3>2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Doctor Strange in the Multiverse of Madness 2022/Doctor Strange in the Multiverse of Madness 2022.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg" alt="">
+				 <div class="m-details">
+				      <h2>DOCTOR STRANGE IN THE MULTIVERSE OF MADNESS</h2>
+					 <h3>2022</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="Movie pages/Thor Love of Thunder/Thor Love Of Thunder.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Movies/thorloveandthunder_lob_crd_03.jpg" alt="">
+				 <div class="m-details">
+				      <h2>THOR: LOVE AND THUNDER</h2>
+					 <h3>2022</h3>
+				</div>
+			   </div>
+			</a>
+			
+			<a href="TV Serias pages/WandaVision/WandaVision.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/wandavision_lob_crd_06.jpg" alt="">
+				 <div class="m-details">
+				      <h2>WANDAVISION</h2>
+					 <h3>Disney Plus series - 2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="TV Serias pages/The Falcon and The Winter Soldier/The Falcon and The Winter Soldier.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/falcws_lob_crd_03.jpg" alt="">
+				 <div class="m-details">
+				      <h2>FALCON AND THE WINTER SOLDIER</h2>
+					 <h3>Disney Plus series - 2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="TV Serias pages/Loki/Loki.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/loki_lob_crd_04.jpg" alt="">
+				 <div class="m-details">
+				      <h2>LOKI - SEASON 01</h2>
+					 <h3>Disney Plus series - 2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="TV Serias pages/What If/What if.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/whatif_lob_crd_01.jpg" alt="">
+				 <div class="m-details">
+				      <h2>WHAT IF...?</h2>
+					 <h3>Disney Plus series - 2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="TV Serias pages/Hawkeye/Hawkeye.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/hawkeye_lob_crd_04.jpg" alt="">
+				 <div class="m-details">
+				      <h2>HAWKEYE</h2>
+					 <h3>Disney Plus series - 2021</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="TV Serias pages/Moon Knight/Moon Knight.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/moonknight_lob_crd_05.jpg" alt="">
+				 <div class="m-details">
+				      <h2>MOON KNIGHT</h2>
+					 <h3>Disney Plus series - 2022</h3>
+				</div>
+			   </div>
+			</a>
+			<a href="TV Serias pages/Ms.Marvel/Ms. Marvel.html">
+			    <div class="marvel">
+			     <img src="pictuers 2202/Tv Serias/msmarvel_lob_crd_04.jpg" alt="">
+				 <div class="m-details">
+				      <h2>MS. MARVEL</h2>
+					 <h3>Disney Plus series - 2022</h3>
+				</div>
+			   </div>
+			</a>
+				 
+		</div>
+	</section>
+	
+	
+	
+	<script src="SearchpageJs.js"></script>
+</body>
+</html>
